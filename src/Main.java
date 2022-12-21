@@ -37,5 +37,27 @@ public class Main {
         System.out.println("frog="+frog);
         frog = frog + 4;
         System.out.println("frog="+frog);
+        System.out.println("Задача 6");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var boxersWeing = firstBoxer + secondBoxer;
+        System.out.println("Вес двух бойцов "+ boxersWeing + " кг ");
+        var differenceWeing = secondBoxer - firstBoxer;
+        System.out.println("Разница между весами бойцов "+ differenceWeing + " кг ");
+        System.out.println("Задача 7");
+        System.out.println("1 способ");
+        differenceWeing = secondBoxer - firstBoxer;
+        System.out.println("Разница между весами бойцов "+ differenceWeing + " кг ");
+        System.out.println("2 способ");
+        differenceWeing = secondBoxer % firstBoxer;
+        System.out.println("Разница между весами бойцов "+ differenceWeing + " кг ");
+        System.out.println("Задача 8");
+        var totalTime = 640;
+        var oneWoker = 8;
+        var totalWorkwers = totalTime / oneWoker;
+        System.out.println("Всего работников в компании - "+ totalWorkwers + " человек ");
+        totalWorkwers = totalWorkwers + 94;
+        totalTime = totalWorkwers * oneWoker;
+        System.out.println("Если в компании работает "+ totalWorkwers + " человек, то всего " + totalTime + " часов работы может быть поделено между сотрудниками");
     }
 }
